@@ -2,6 +2,7 @@
 
 ### Description
 이 모델은 문서 이미지 내 텍스트 영역은 보존하면서 배경 부분의 Contrast를 균일하게 해주는 딥러닝 모델입니다.
+![res4](https://user-images.githubusercontent.com/25381921/148644021-d5bd7b80-faca-45d4-8343-ae26a797b725.png)
 
 ### Prerequisites
  * Python 3.6.12
