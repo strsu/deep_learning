@@ -1,7 +1,7 @@
 # Document Contrast Enhancement Model
 
 ### Description
-이 프로젝트는 문서 이미지 내 존재하는 그림자, 광원 부분을 제거하기 위해 텍스트 영역은 보존하면서 배경 부분을 모두 비슷한 색상을 갖도록 해주는 딥러닝 모델입니다.
+이 모델은 문서 이미지 내 텍스트 영역은 보존하면서 배경 부분의 Contrast를 균일하게 해주는 딥러닝 모델입니다.
 
 ### Prerequisites
  * Python 3.6.12
