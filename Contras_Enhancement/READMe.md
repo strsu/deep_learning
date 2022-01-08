@@ -9,7 +9,7 @@
  * CUDA 10.2
  * Anaconda 3
  * OpenCV 3.4.16
- * Tesseract 4 - 
+ * Tesseract 4, config='--psm 6 --oem 1'
 
 ### Training Dataset
  docVOC dataset에 임의로 만든 영역에 따라 문서의 영역을 랜덤한 수치로 contrast를 조절하였습니다.
@@ -30,7 +30,9 @@
    ![res2](https://user-images.githubusercontent.com/25381921/148643608-ad4629af-6881-4858-9579-34aea1fd2fc0.png)
  
  * 평균 OCR 인식률
+ 
   WEZUT_OCR_Dataset은 총 176장의 이미지입니다.
+   
   | Original | our | CLAHE |
   | - | - | - |
   | 50% | 90% | 67% |
