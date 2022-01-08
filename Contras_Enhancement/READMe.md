@@ -34,10 +34,10 @@
    ![res3](https://user-images.githubusercontent.com/25381921/148643895-cdb2239d-868a-45ce-a32e-65961ace6c53.png)
    ![res4](https://user-images.githubusercontent.com/25381921/148644021-d5bd7b80-faca-45d4-8343-ae26a797b725.png)
   
-  #Our vs CLAHE
+  #Image From Internet
    ![res1](https://user-images.githubusercontent.com/25381921/148643388-2675c98d-c384-4d93-b2fe-855bbc70b1b9.png)
   
-  #Image From Internet
+  #Our vs CLAHE
    ![res2](https://user-images.githubusercontent.com/25381921/148643608-ad4629af-6881-4858-9579-34aea1fd2fc0.png)
  
  * 평균 OCR 인식률
