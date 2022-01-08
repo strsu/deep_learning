@@ -9,6 +9,7 @@
  * CUDA 10.2
  * Anaconda 3
  * OpenCV 3.4.16
+ * Tesseract 4 - 
 
 ### Training Dataset
  docVOC dataset에 임의로 만든 영역에 따라 문서의 영역을 랜덤한 수치로 contrast를 조절하였다.
@@ -19,10 +20,13 @@
 ![hole](https://user-images.githubusercontent.com/25381921/148642783-8045f6ab-d6eb-4c5e-beb1-2fe5a8170892.png)
 
 ### Result
+ 명암대비 강화를 적용한 이미지의 성능을 평가하기 위해 명암대비가 뚜렷하게 있는 Dataset을 가지고 OCR 인식률을 비교해보았다.
+ [WEZUT_OCR_Dataset] (http://okarma.zut.edu.pl/index.php?id=dataset)
 
- *모델 적용 전 후
+ * 모델 적용 전 후
+   ![res1](https://user-images.githubusercontent.com/25381921/148643388-2675c98d-c384-4d93-b2fe-855bbc70b1b9.png)
  
- *OCR 인식률
+ * OCR 인식률
   | Original | our | CLAHE |
   | - | - | - |
   | 50% | 90% | 67% |
