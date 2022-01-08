@@ -23,7 +23,7 @@
 
 ### Result
  명암대비 강화를 적용한 이미지의 성능을 평가하기 위해 명암대비가 뚜렷하게 있는 Dataset을 가지고 OCR 인식률을 비교해보았습니다.
- [WEZUT_OCR_Dataset] (http://okarma.zut.edu.pl/index.php?id=dataset)
+ [WEZUT_OCR_Dataset](http://okarma.zut.edu.pl/index.php?id=dataset)
 
  * 모델 적용 전 후
   #WEZUT_OCR_Dataset
