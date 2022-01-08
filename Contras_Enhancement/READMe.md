@@ -11,7 +11,7 @@
  * OpenCV 3.4.16
  * Tesseract 4, config='--psm 6 --oem 1'
 
- * pretrained model(https://drive.google.com/file/d/1R9T5n0tQ90sb8TfmkTVE0s55iXtP1ohZ/view?usp=sharing)
+ * [pretrained model](https://drive.google.com/file/d/1R9T5n0tQ90sb8TfmkTVE0s55iXtP1ohZ/view?usp=sharing)
 
 ### Training Dataset
  docVOC dataset에 임의로 만든 영역에 따라 문서의 영역을 랜덤한 수치로 contrast를 조절하였습니다.
