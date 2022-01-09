@@ -47,3 +47,6 @@
   | Original | Our | CLAHE |
   | - | - | - |
   | 50% | 90% | 67% |
+  
+  ### 참조
+  [1]:(https://www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/)
