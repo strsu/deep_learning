@@ -44,6 +44,5 @@ Contrast Enhancement는 직접만든 명암대비 강화모델을 사용하였�
  
   WEZUT_OCR_Dataset은 총 176장의 이미지입니다.
    
-  | Original | Our | CLAHE |
-  | - | - | - |
-  | 50% | 90% | 67% |
+  | 전처리 미적용 평균 OCR 인식률 | 38% |
+  | 제안 모델 적용 평균 OCR 정확도 | 63% |
