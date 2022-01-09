@@ -22,7 +22,8 @@
 
 SRN-Deblur, DnCNN은 기존의 논문과 코드를 가져와 사용하였습니다.
 Contrast Enhancement는 직접만든 명암대비 강화모델을 사용하였습니다.
--> 3개의 모델 모두 docVOC Dataset을 기반으로 훈련시켰습니다.
+
+-> 3개의 모델 모두 docVOC Dataset을 기반으로 훈련시켰습니다. 블러와 노이즈는 [imgaug](https://imgaug.readthedocs.io/en/latest/)라이브러리를 이용해 랜덤 수치로 다양한 블러기법, 노이즈기법을 적용한 데이터셋입니다.
 
 ### Training Dataset
  wiki에서 가져온 단어를 기반으로 Opencv의 Puttext를 이용해 직접 학습 데이터를 생성하였습니다.
