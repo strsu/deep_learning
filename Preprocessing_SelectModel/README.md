@@ -13,11 +13,17 @@
 
  * [pretrained model](https://drive.google.com/file/d/1R9T5n0tQ90sb8TfmkTVE0s55iXtP1ohZ/view?usp=sharing)
 
-### Training Dataset
- docVOC dataset에 임의로 만든 영역에 따라 문서의 영역을 랜덤한 수치로 contrast를 조절하였습니다.
- 
+### Used Preprocessing Model
+[SRN-Deblur](https://github.com/jiangsutx/SRN-Deblur)
+[DnCNN](https://github.com/SaoYan/DnCNN-PyTorch)
+[Contrast Enhancement](https://github.com/strsu/sku_deep_learning/tree/main/Contras_Enhancement)
 
- 아래 두 이미지는 contrast를 조정할 영역에 대한 label이다.
+SRN-Deblur, DnCNN은 기존의 논문과 코드를 가져와 사용하였습니다.
+Contrast Enhancement는 직접만든 명암대비 강화모델을 사용하였습니다.
+-> 3개의 모델 모두 docVOC Dataset을 기반으로 훈련시켰습니다.
+
+### Training Dataset
+ wiki에서 가져온 단어를 기반으로 Opencv의 Puttext를 이용해 직접 학습 데이터를 생성하였습니다.
  
 
 ### Result
