@@ -61,3 +61,6 @@ Contrast Enhancement는 직접만든 명암대비 강화모델을 사용하였�
   | :---: | :---: |
   | 전처리 미적용 | 38% |
   | 제안 모델 적용 | 63% |
+  
+  ### 선행 논문
+  [1] Selecting automatically pre-processing methods to improve OCR performances : <https://ieeexplore.ieee.org/abstract/document/8269967>
