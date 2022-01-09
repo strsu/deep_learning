@@ -49,4 +49,4 @@
   | 50% | 90% | 67% |
   
   ### 참조
-  [1] contrast equation :<https://www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/>
+  [1] contrast equation : <https://www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/>
