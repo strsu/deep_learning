@@ -23,7 +23,7 @@
 
 [Contrast Enhancement](https://github.com/strsu/sku_deep_learning/tree/main/Contras_Enhancement)
 
-SRN-Deblur, DnCNN은 기존의 논문과 코드를 가져와 사용하였습니다.
+SRN-Deblur, DnCNN은 기존의 논문과 코드를 가져와 사용하였습니다.   
 Contrast Enhancement는 직접만든 명암대비 강화모델을 사용하였습니다.
 
 -> 3개의 모델 모두 docVOC Dataset을 기반으로 훈련시켰습니다. 블러와 노이즈는 [imgaug](https://imgaug.readthedocs.io/en/latest/)라이브러리를 이용해 랜덤 수치로 다양한 블러기법, 노이즈기법을 적용한 데이터셋입니다.
@@ -37,7 +37,9 @@ Contrast Enhancement는 직접만든 명암대비 강화모델을 사용하였�
 
 
 ### Result
- 평가 이미지에 자연스러운 명암대비를 추가하기 어려워 자연스러운 명암대비가 있는 Dataset을 가지고 OCR 인식률을 비교해보았습니다.   [WEZUT_OCR_Dataset](http://okarma.zut.edu.pl/index.php?id=dataset)   총 176장의 명암대비기반 이미지에   랜덤 블러, 노이즈를 추가해 총 1,235장의 평가 셋을 준비하였습니다.
+ 평가 이미지에 자연스러운 명암대비를 추가하기 어려워 자연스러운 명암대비가 있는 Dataset을 가지고 OCR 인식률을 비교해보았습니다.   
+ [WEZUT_OCR_Dataset](http://okarma.zut.edu.pl/index.php?id=dataset)   
+ 총 176장의 명암대비기반 이미지에 랜덤 블러, 노이즈를 추가해 총 1,235장의 평가 셋을 준비하였습니다.
 
  * 평가 셋 예시
 
