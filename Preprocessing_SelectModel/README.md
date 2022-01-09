@@ -4,7 +4,7 @@
 이 모델은 문서 이미지 내 존재하는 결점(블러, 노이즈, 명암대비)을 탐지하고, 탐지된 결점을 제거해주는 모델입니다.   
 
 ![image](https://user-images.githubusercontent.com/25381921/148665379-8410d2b1-ca00-4336-ba04-75aa5870b7fd.png)
-<img width="60%" src="https://user-images.githubusercontent.com/25381921/148665379-8410d2b1-ca00-4336-ba04-75aa5870b7fd.png"></img>
+<img width="80%" src="https://user-images.githubusercontent.com/25381921/148665379-8410d2b1-ca00-4336-ba04-75aa5870b7fd.png"></img>
 
 selectModel을 통해 이미지 내 결점을 탐지를 합니다. 탐지된 결점이 없다면 곧바로 OCR을 수행합니다.   
 탐지된 결점이 1개라면 1개의 결점에 대해 전처리 작업을 수행 후 OCR을 수행합니다.   
