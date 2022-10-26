@@ -1,4 +1,4 @@
-## [sku]deep_learning
+## deep_learning
 
 
 > ### Contrast Enhancement
